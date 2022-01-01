@@ -1,0 +1,61 @@
+@import "./abstracts/variables";
+@import "./abstracts/utilities";
+@import "./abstracts/animations";
+
+@import "./base/typography";
+@import "./base/base";
+
+@import "./pages/welcome";
+@import "./pages/login";
+@import "./pages/players";
+@import "./pages/social";
+@import "./pages/camera";
+@import "./pages/guide";
+@import "./pages/score";
+@import "./pages/winners";
+@import "./pages/prizes";
+@import "./pages/terms";
+@import "./pages/admin";
+@import "./pages/sharetowin";
+@import "./pages/questionOverlay";
+@import "./pages/dashboard";
+
+@import "./cmpnts/components";
+@import "./cmpnts/table";
+
+.page .Toastify__toast {
+    border-radius: 30px;
+    opacity: .85;
+    text-align: center;
+    font-size: 18px;
+}
+
+.page .Toastify__close-button {
+    align-self: center;
+    margin-right: 10px;
+}
+
+@media (max-width: 625px) {
+    .page.guide-container {
+        min-height: 55vh;
+    }
+    .welcome .container {
+        margin-top: 0;
+    }
+
+    .welcome .floating-img--2 {
+        top: 110px;
+        left: 10px;
+        width: 30px;
+    }
+    .page.sharetowin.fl-col.align-center.just-center {
+        min-height: 41vh;
+    }
+    .page.welcome.fl-col.just-center.align-center {
+        min-height: 74vh;
+        justify-content: inherit;
+        padding-top: 160px;
+    }
+  
+
+}

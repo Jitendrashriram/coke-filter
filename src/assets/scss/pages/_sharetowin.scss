@@ -1,0 +1,109 @@
+.sharetowin {
+    padding: 8px 0;
+
+    &__header {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+
+    &__group {
+        margin-bottom: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+    &__text {
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    img.bottletop {
+        position: absolute;
+        bottom: -80px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 0 auto;
+        width: 44px;
+    }
+}
+
+
+.sharetowingraph {
+	width: 100%;
+	position: relative;
+	max-width: 360px;
+	margin-top: 5px;
+    margin-bottom: 20px;
+}
+img.stwbgraph {
+	width: 100%;
+	position: relative;
+    left: -18px;
+    top: 25px;
+}
+.stwbgraph {
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.stwLeftGrph {
+	position: absolute;
+    top: 0;
+    left: 0;
+	.stwLeftGrphimg {
+		top: 0;
+		left: 0;
+		width: 200px;
+		transform:translate(0%, 0);
+	}
+	.stwtextwrapL {
+		position: absolute;
+		padding: 5px 10px;
+		z-index: 5;
+		top: 0;
+		left: 0;
+		transform: translate(10%, 46%) rotate(-14deg);
+		.stw-intext {
+			color: #A9161C;
+			font-size: 11px;
+			white-space: nowrap;
+			font-weight: 500;
+			width: 100%;
+			text-align: center;
+		}
+	}
+}
+.stwRightGrph {
+	position: absolute;
+    top: 0;
+    right: 0;
+	.stwrightGrphimg {
+		top: 0;
+		right: 0;
+		width: 200px;
+		transform: translate(10%, 45%);
+	}
+	.stwtextwrapR {
+		position: absolute;
+		padding: 5px 10px;
+		z-index: 5;
+		top: 0;
+		right: 0;
+		transform: translate(-80%, 284%) rotate(-12deg);
+		.stw-intext {
+			color: #A9161C;
+			font-size: 11px;
+			white-space: nowrap;
+			font-weight: 500;
+			width: 100%;
+			text-align: center;
+		}
+	}
+}

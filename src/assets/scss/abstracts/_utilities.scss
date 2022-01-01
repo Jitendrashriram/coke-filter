@@ -1,0 +1,52 @@
+.fl-row {
+    display: flex;
+}
+
+.fl-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.just-start {
+    justify-content: flex-start;
+}
+
+.just-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.self-start {
+    align-self: flex-start;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.self-end {
+    align-self: flex-end;
+}
+
+.w-full {
+    width: 100%;
+}

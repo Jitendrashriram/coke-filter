@@ -1,0 +1,150 @@
+.admin {
+    padding: 100px 20px 50px;
+    box-sizing: border-box;
+}
+
+.users {
+    &__header {
+        color: white;
+        width: 100%;
+        margin-bottom: 15px;
+
+        .line {
+            flex: 1;
+            border-top: 1px solid rgba(255, 255, 255, 0.555);
+        }
+        .text {
+            margin: 0 8px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    &__content {
+        color: white;
+        width: 100%;
+
+        .header {
+            text-decoration: underline;
+            font-size: 18px;
+            font-size: 500;
+            margin-bottom: 10px;
+        }
+
+        .sub-header {
+            font-size: 16px;
+            margin-bottom: 3px;
+        }
+    }
+
+    &__weeks {
+        margin-bottom: 15px;
+
+        .img-btn:not(:last-child) {
+            margin-right: 3px;
+        }
+    }
+
+    .add-btn {
+        background: white;
+        padding: 5px 15px;
+        border: none;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 3px;
+        color: $third-red;
+        transition: transform .1s ease-out;
+        cursor: pointer;
+
+        &:active {
+            transform: translateY(1px) scale(.98);
+        }
+    }
+
+    .table {
+        margin-bottom: 10px;
+        
+        &__cell {
+            font-size: 14px;
+        }
+    
+        &__header &__cell {
+            font-size: 16px;
+        }
+    }
+
+    .nowinners {
+        align-self: center;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 10px 0;
+    }
+}
+
+.popup-overlay .ques-popup-content {
+    max-width: 500px;
+    padding: 15px 20px;
+}
+
+.popup-overlay .ques-modal {
+    .header {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 12px;
+        color: transparent;
+        background: linear-gradient(to right, #c99124 5%, #f6da67 25%, #f6da67 80%, #c99124 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+    }
+
+    .input {
+        padding: 3px 5px;
+        line-height: 1.4;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .que-input {
+        text-align: center;
+        padding: 3px 5px;
+        line-height: 1.6;
+        font-size: 18px;
+        padding: 0 5px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .choices {
+        margin: 5px 0 15px;
+        flex-wrap: wrap;
+    }
+
+    .text {
+        margin: 5px 0 15px;
+        font-size: 18px;
+    }
+
+    .actions {
+        &__btn {
+            background: white;
+            padding: 5px 15px;
+            border: none;
+            font-weight: 600;
+            font-size: 16px;
+            border-radius: 3px;
+            cursor: pointer;
+
+            &:first-child {
+                margin-right: 8px;
+            }
+        }
+    }
+
+    .cancel {
+        margin-right: 15px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

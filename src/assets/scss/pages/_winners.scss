@@ -1,0 +1,43 @@
+.winners {
+    padding: 0 16px;
+
+    &__header {
+        color: white;
+        width: 100%;
+        margin-bottom: 15px;
+
+        .line {
+            flex: 1;
+            border-top: 1px solid rgba(255, 255, 255, 0.555);
+        }
+        .text {
+            margin: 0 8px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    &__weeks {
+        .img-btn {
+            margin: 0 3px; 
+        }
+    }
+
+    &__content {
+        color: white;
+        width: 100%;
+        margin-top: 30px;
+        .header {
+            text-decoration: underline;
+            font-size: 18px;
+            font-size: 500;   
+            margin-bottom: 10px; 
+        }
+
+        .sub-header {
+            font-size: 16px;
+            margin-bottom: 3px;
+        }
+    }
+
+}

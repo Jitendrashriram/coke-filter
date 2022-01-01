@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #A92D1D;
+    
+}
+body {
+    background: url(../../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page {
+    position: relative;
+    min-height: 100vh;
+}
+
+.app {
+    position: relative;
+    min-width: 320px;
+    max-width: 768px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.dot {
+    width:35px;
+    height:35px;
+    position:absolute;
+    background: url(../../img/flower.png);
+    background-size: 100% 100%;
+}

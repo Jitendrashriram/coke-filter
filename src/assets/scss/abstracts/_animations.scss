@@ -1,0 +1,59 @@
+.floating-img {
+    animation: fadeup .8s ease-in forwards;
+    opacity: 0;
+    
+    &--3, &--5, &--7 {
+        animation-delay: .6s;
+    }
+}
+
+@keyframes fadeup {
+    from {
+        opacity: 0.5;
+        transform: translateY(-15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes toPosition {
+    from {
+        filter: grayscale(1);
+    }
+    to {
+        filter: grayscale(0);
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.35);
+        
+    }
+    50% {
+        transform: scale(1);
+        
+    }
+    75% {
+        transform: scale(1.35);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
